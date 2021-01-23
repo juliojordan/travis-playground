@@ -1,0 +1,20 @@
+{
+  "name": "travis-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo 'test done' && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliojordan/travis-playground.git"
+  },
+  "keywords": [],
+  "author": "Julio Jordán <juliojordan@protonmail.com> (https://github.com/juliojordan)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juliojordan/travis-playground/issues"
+  },
+  "homepage": "https://github.com/juliojordan/travis-playground#readme"
+}

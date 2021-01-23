@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+  - '14'
+dist: trusty
+env:
+  - NODE_ENV=ci
+cache:
+  directories:
+    - node_modules
+install:
+  - echo 'install done' $NODE_ENV
+script:
+#  - nohup npm run start &
+#  - sleep 3
+  - npm run test
+
